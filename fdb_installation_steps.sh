@@ -1,4 +1,4 @@
-#Date installation 12/05/2022
+#Installation 12/05/2022  on LUMI-C platform
 
 partcdir=/scratch/project_465000454/devaraju/SW/LUMI-22.08/C
 softwdir=/scratch/project_465000454/devaraju/softwares
