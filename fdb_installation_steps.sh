@@ -58,7 +58,7 @@ make install
 $partcdir/eckit/bin/eckit-version
 
 
-#fckit installation
+#fckit installation (see more details: https://sites.ecmwf.int/docs/atlas/getting_started/install_fckit/)
 export eckit_ROOT=$partcdir/eckit
 cd $softwdir
 git clone -b master https://github.com/ecmwf/fckit.git
