@@ -32,7 +32,7 @@ mkdir -p build
 cd build/
 installdir=$partcdir/eccodes2.30.0
 mkdir -p $installdir
-cmake ../ -DCMAKE_INSTALL_PREFIX=$installdir
+#cmake ../ -DCMAKE_INSTALL_PREFIX=$installdir
 cmake ../ -DCMAKE_INSTALL_PREFIX=$installdir -DENABLE_AEC=OFF
 make
 ctest
