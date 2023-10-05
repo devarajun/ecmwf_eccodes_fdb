@@ -20,5 +20,13 @@
   make install
 
 ```
+- loaded modules while installing
 
+```
+Currently Loaded Modules:
+  1) ModuleLabel/label (S)   5) craype-x86-milan     9) xpmem/2.5.2-2.4_3.47__gd0f7936.shasta      13) cray-netcdf/4.9.0.3     17) cray-libsci/23.02.1.1
+  2) lumi-tools/23.04  (S)   6) craype-accel-host   10) partition/C                           (S)  14) perftools-base/23.03.0  18) cray-dsmml/0.2.2
+  3) init-lumi/0.2     (S)   7) libfabric/1.15.2.0  11) cce/15.0.1                                 15) craype/2.7.20           19) cpeCray/23.03
+  4) LUMI/23.03        (S)   8) craype-network-ofi  12) cray-hdf5/1.12.2.3                         16) cray-mpich/8.1.25       20) libaec/1.0.6-cpeCray-23.03
+```
 
