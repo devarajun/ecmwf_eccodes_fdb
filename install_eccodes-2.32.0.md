@@ -20,7 +20,7 @@
   ml libaec 
   tar -xzf eccodes-2.32.0-Source.tar.gz
   cd eccodes-2.32.0-Source
-  mkdir build ; cd build
+  mkdir build && cd build
   ecbuild -DCMAKE_INSTALL_PREFIX=/projappl/project_465000454/devaraju/softwares/eccodes-2.32.0 ../
   make
   ctest
